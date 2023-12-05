@@ -49,4 +49,29 @@ This function uses the built in NLTK ``SentimentIntensityAnalyzer()`` function t
 ### Question 1 | In general, do YouTube comments lean towards a more positive or negative sentiment? 
 In order to answer this question the whole data set must be taken into account. To do this, all the positive data was added up based on positive, negative and neutral comments. Then the percentages were calculated for both the clean and raw data. The analysis of both the raw and clean data was taken to see the discrepancies between the both.
 
+<img src="graphs/PICharts/clean/total_clean_pi.png">
+<img src="graphs/PICharts/raw/Total_raw_pi.png">
+
+With 59% neutral for the raw data and 70% for the cleaned data it is clear that the majority of comments on YouTube are neutral. After the neutral 30% of the raw and 25% of the clean comments are positive, followed by 10% and 3% for the negative percentage of the raw and clean respectively. Youtube is primarily neutral and positive. With approximately 10% or less of negative comments on the site, it is safe to say that YouTube is an overall positive website. 
+
+### Question 2 | Which genre of YouTube videos tends to attract the most positive feedback in the comments section?
+
+#### Beauty
+
+#### Controversial
+
+#### Gaming
+
+#### Music
+
+#### Reaction
+
+#### Vlog
+
+
+### Question 3 | What is the sentiment towards controversial topics on YouTube?
+
+
+
+
 
