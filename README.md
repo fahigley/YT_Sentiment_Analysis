@@ -25,7 +25,11 @@ Tools for Sentiment analysis and visualization
 - TQDM - progress bar
 - matplotlib - data visualization
 
+The sentiment analysis of the YouTube comments was done using the ``sentiment_analysis()`` function. This function uses the built in ``SentimentIntensityAnalyzer()``.  
+
 ## Results
+
+
 
 ## Discussion
 
