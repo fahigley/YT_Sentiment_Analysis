@@ -18,9 +18,9 @@ Tools for gathering data/data manipulation
 - pandas - to read csv and manipulate data
 - csv - creating and populating csv files
 - langid - filtering comments based on language
+- numpy - array manipulation and math functions
 
 Tools for Sentiment analysis of comments
-- numpy - array manipulation and math
 - NLTK - sentiment analysis
 - TQDM - progress bar
 
