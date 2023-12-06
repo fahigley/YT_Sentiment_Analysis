@@ -91,6 +91,11 @@ There is a difference between the neutral percents with the raw having 58% and c
 <img src="graphs/PICharts/raw/rv_pi.png" />
 <img src="graphs/PICharts/clean/cv_pi.png" />
 
+The vlog percentages are very similar with 58% and 64% for the neutral comments, 32% and 30% for positive and 9% and 5% for negative comment percentage.
+
+#### Analysis
+These pi charts tell us a lot about the comments and the genre of video. Beauty videos have the highest positive percentage with 32.8% positive. This is predicted by the genre, most of the comments are talking about how beautiful the creator is or certain makeup, etc. Controversial video comments have the highest negative percentage with 7.7% negative. This is due to the controversial nature of the video and the conflict spreading to the comment section of the video.
+
 
 ### Question 3 | What is the sentiment towards controversial topics on YouTube?
 
