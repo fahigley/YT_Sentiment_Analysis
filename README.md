@@ -49,27 +49,52 @@ This function uses the built in NLTK ``SentimentIntensityAnalyzer()`` function t
 ### Question 1 | In general, do YouTube comments lean towards a more positive or negative sentiment? 
 In order to answer this question the whole data set must be taken into account. To do this, all the positive data was added up based on positive, negative and neutral comments. Then the percentages were calculated for both the clean and raw data. The analysis of both the raw and clean data was taken to see the discrepancies between the both.
 
-<img src="graphs/PICharts/clean/total_clean_pi.png">
-<img src="graphs/PICharts/raw/Total_raw_pi.png">
+<img src="graphs/PICharts/raw/Total_raw_pi.png" />
+<img src="graphs/PICharts/clean/total_clean_pi.png" />
 
 With 59% neutral for the raw data and 70% for the cleaned data it is clear that the majority of comments on YouTube are neutral. After the neutral 30% of the raw and 25% of the clean comments are positive, followed by 10% and 3% for the negative percentage of the raw and clean respectively. Youtube is primarily neutral and positive. With approximately 10% or less of negative comments on the site, it is safe to say that YouTube is an overall positive website. 
 
 ### Question 2 | Which genre of YouTube videos tends to attract the most positive feedback in the comments section?
+In order to answer this question, all genres need to be taken into account. This is simple because all the data is already separated by genre.
 
 #### Beauty
+<img src="graphs/PICharts/raw/rb_pi.png" />
+<img src="graphs/PICharts/clean/cb_pi.png" />
+
+The neutral beauty comments are between 50% and 60% for both the raw data and clean data. 41% of raw comments and 32% of clean comments were positive. Negative comments were under 10% for both.
 
 #### Controversial
+<img src="graphs/PICharts/raw/rc_pi.png" />
+<img src="graphs/PICharts/clean/cc_pi.png" />
+
+The differences between the raw and cleaned data for controversial is drastic. The neutral comments for were 42% and 64% for the raw and clean. The positive percentage was more similar with 25% and 28% for the raw and clean percentages. The variance comes with the negative percentage. The cleaned comments have a similar percentage to the beauty videos with 7%. The raw data had a percentage of 31%. This discrepancy is likely due to the language filtering. While the confidence was set to 0.5 when cleaning the data many english comments could have been potentially filtered out. It is also unknown what non-english phrases are scored in terms of positive or negative polarity. Because of these facts the results of the raw controversial data cannot be trusted. 
 
 #### Gaming
+<img src="graphs/PICharts/raw/rg_pi.png" />
+<img src="graphs/PICharts/clean/cg_pi.png" />
+
+The gaming comment graphs were remarkable similar with 58% and 65% for the neutral comments, 34% and 30% for positive, and finally 7% and 3% for the negative.
 
 #### Music
+<img src="graphs/PICharts/raw/rm_pi.png" />
+<img src="graphs/PICharts/clean/cm_pi.png" />
+
+The music comments were primarily neutral with 71% and 83%. This is likely due to users commenting about the song an potential lyrics instead of how they feel towards the song or artist. The positive percentage was 22% and 14% with the negatives 6% and 2%.
 
 #### Reaction
+<img src="graphs/PICharts/raw/rr_pi.png" />
+<img src="graphs/PICharts/clean/cr_pi.png" />
+
+There is a difference between the neutral percents with the raw having 58% and clean having 75%. The positive percentages were 30% and 18%. The negative percentages were 11% and 6%. It is challenging to figure out why there is such a big difference in the percentage of neutral comments. However it is most likely due to the NLTK toolkit and its limitations.
 
 #### Vlog
+<img src="graphs/PICharts/raw/rv_pi.png" />
+<img src="graphs/PICharts/clean/cv_pi.png" />
 
 
 ### Question 3 | What is the sentiment towards controversial topics on YouTube?
+
+### Conclusion
 
 
 
