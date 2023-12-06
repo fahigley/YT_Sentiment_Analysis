@@ -94,12 +94,30 @@ There is a difference between the neutral percents with the raw having 58% and c
 The vlog percentages are very similar with 58% and 64% for the neutral comments, 32% and 30% for positive and 9% and 5% for negative comment percentage.
 
 #### Analysis
-These pi charts tell us a lot about the comments and the genre of video. Beauty videos have the highest positive percentage with 32.8% positive. This is predicted by the genre, most of the comments are talking about how beautiful the creator is or certain makeup, etc. Controversial video comments have the highest negative percentage with 7.7% negative. This is due to the controversial nature of the video and the conflict spreading to the comment section of the video.
+These pi charts tell us a lot about the comments and the genre of video. Beauty videos have the highest positive percentage with 32.8% positive. This is predicted by the genre, most of the comments are talking about how beautiful the creator is or certain makeup, etc. Controversial video comments have the highest negative percentage with 7.7% negative. This is due to the controversial nature of the video and the conflict spreading to the comment section of the video. We can see this positive sentiment percentages for each genre in the following bar graphs.
+
+<img src="graphs/Bar/cp_bar.png" />
+<img src="graphs/Bar/rp_bar.png" />
 
 
 ### Question 3 | What is the sentiment towards controversial topics on YouTube?
+When it comes to the sentiment of controversial video comments this can be looked at through the previous pi charts.
 
-### Conclusion
+<img src="graphs/PICharts/raw/rc_pi.png" />
+<img src="graphs/PICharts/clean/cc_pi.png" />
+
+While the negative percentage of the raw data is very high, this cannot be trusted because the sentiment of non-english phrases is not known. The bar graph below can further show the negative sentiment of controversial video comments compared to the other categories.
+
+<img src="graphs/Bar/cn_bar.png" />
+
+Controversial video comments have the highest percentage of negative comments. This is likely due to the nature of controversy and may people are arguing in the comment section. However this negative percentage is only 7.7%, meaning that thw other 92.3% is either neutral or positive. While the controversial videos may have the highest percentage of negative comments, overall they are not very negative at all. Therefore it can be said that the sentiment towards controversial videos on youtube is mostly neutral or positive.
+
+### Conclusion and Closing Thoughts
+When it comes to the YouTube comment section, it is mostly neutral and positive no matter the genre and when it comes to controversial videos they follows the general distribution of positive neutral and negative comments. 
+
+Sentiment analysis is an incredibly powerful tool for processing natural language. The model that was used in this analysis was pertained and already built in to NLTK. To better this analysis a custom build model or a better version could have offered better results, however they are more challenging to use and taxing on the components of a system.
+
+Overall, this project furthered my understanding and knowledge of data science while challenging me at the same time.
 
 
 
